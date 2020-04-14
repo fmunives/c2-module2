@@ -7,4 +7,4 @@ def palindrome sentence
     end
 end
 
-palindrome "Race fast safe car"
+palindrome "Sometamos o matemos"
