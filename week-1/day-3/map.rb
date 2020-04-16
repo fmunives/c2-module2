@@ -1,8 +1,6 @@
 def map(arr)
   new_array = []
-  for element in 0..arr.length-1 do
-    new_array << yield(arr[element])
-  end
+  arr.each { |element| new_array << yield(element)  }
   new_array
 end
 
